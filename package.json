@@ -1,0 +1,32 @@
+{
+  "name": "friendfinderapplication",
+  "version": "1.0.0",
+  "description": " This full-stack site will take in results from your users' surveys, then compare their answers with those from other users to deliver the best compatibility between two users.",
+  "main": "apiRoutes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrandSuccess87/FriendFinderApplication.git"
+  },
+  "keywords": [
+    "express.js",
+    "node.js",
+    "git",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "author": "Quintessa Anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GrandSuccess87/FriendFinderApplication/issues"
+  },
+  "homepage": "https://github.com/GrandSuccess87/FriendFinderApplication#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}

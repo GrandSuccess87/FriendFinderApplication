@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(236, 33, 84);
+    opacity: 1.0;
+}
+
+/* img {
+    width: 100%;
+    vertical-align: middle;
+} */
+
+.responsive {
+    width: 100%;
+    height: auto;
+}

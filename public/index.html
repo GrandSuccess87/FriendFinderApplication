@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" charset="utf-8">  
+  
+  <title>Friend Finder</title>
+  <!-- <style> 
+  body {
+    background: url("../images/friends.jpg") no-repeat center center fixed; 
+    padding: 50px; 
+    background-color: rgba(25, 70, 219, 0.472);
+    /* background-color:#bec1c6; */
+    /* background-image: url("..images/friends.jpg") no-repeat center center fixed; */
+}
+  </style> -->
+</head>
+
+<body>
+  <div class="background"></div>
+
+  <div class="container">
+
+    <div class="jumbotron">
+      <h1 class="text-center"><i class="fa fa-facebook-square" aria-hidden="true"></i> Virtual Dating Made Reality</h1>
+      <hr>
+      <h2 class="text-center">Welcome to the Digital Friend Finder Dating App!</h2>
+      <br>
+      <h3>Please Answer a Few Questions</h3>
+      <h3>Then We Will Connect You With A Friend of the Greatest Compatibility!!</h3>
+
+      <div class="text-center">
+        <a href="/survey"><button type="button" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-list-alt"></span> Go To Survey </button></a>
+        <!-- <a href="/reservation"><button type="button" class="btn btn-lg btn-danger"><span class="glyphicon glyphicon-credit-card"></span> Make Reservation</button></a> -->
+      </div>
+
+    </div>
+
+
+  </div>
+</body>
+
+<script type="text/javascript">
+
+function runSurveyQuery () {
+    //pulls origin url of where user currently is
+    var currentURL = window.location.orgin;
+
+    $.ajax({url: currentURL + "api/survey", method: "GET" })
+        .done(function(surveyData){
+
+        })
+
+}
+
+
+
+</script>
+
+</html>

@@ -1,0 +1,71 @@
+/* body { */
+    /* padding: 50px;  */
+    /* background-color: yellow; */
+    /* background-color:#bec1c6; */
+    /* background: url("../images/friends.jpg") no-repeat center center fixed; */
+    
+/* } */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    opacity: 0.9;
+}
+
+html {
+    background-color: black;
+    padding-bottom: 34%; 
+    opacity: 0.8;
+    
+}
+
+.background {
+/* The image used */
+background: url("../images/friends.jpg");
+/* no-repeat center center fixed */
+
+/* Full height */
+height: 100%; 
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+.jumbotron{
+    background-color: blanchedalmond;
+    opacity: 1.0;
+}
+.container .jumbotron, .container-fluid .jumbotron {
+    padding-right: 60px;
+    padding-left: 60px;
+
+}
+
+.responsive {
+    width: 50%;
+    height: auto;
+}
+input {
+    width: 25%;
+}
+.white-title {
+    color: white;
+}
+.panel-labels {
+    color: white;
+}
+.header-main {
+    background-color: #829dc9;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    margin-top: 5%;
+    padding: 20px 30px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    margin-right: 80%;
+}
