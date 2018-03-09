@@ -45,6 +45,19 @@ background-size: cover;
 }
 
 
+.mylinks {
+    color: darkmagenta;
+    text-decoration: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    margin-right: 77%;
+}
+
+a {
+    font-size: 16px;
+}
+
+
 input {
     width: 25%;
 }
