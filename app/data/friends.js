@@ -2,11 +2,11 @@ var friendArray =
 [ 
     {
     name: "Quintessa",
-    photo: "https://scontent.ford1-1.fna.fbcdn.net/v/t1.0-9/10251950_666411135207_8602317752642827164_n.jpg?oh=c1a149f882c31dc2d0cb19282002ff87&oe=5B04B51E",
+    photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAv2AAAAJGEzNjllOTQyLTE4YWMtNDliMC1iYzdmLWUwNGJiMWEzZDM1Mg.jpg",
     scores:[5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
     },
     {
-    name: "Jake",
+    name: "Jake Gyllenhaal",
     photo:"https://i.ytimg.com/vi/Vtt32wBwXFw/maxresdefault.jpg",
     scores:[5, 1, 3, 4, 5, 5, 2, 5, 3, 4]
     
