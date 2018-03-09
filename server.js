@@ -21,6 +21,10 @@ var PORT = process.env.PORT || 4004;
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname, '/public/index.html'));
+  });
+
  app.get('/survey', function(req, res) {
 res.sendFile(path.join(__dirname, '/public/survey.html'));
     });
