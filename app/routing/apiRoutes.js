@@ -38,7 +38,7 @@ module.exports = function (app) {
             //find calculation for absolute value to compare the answer score arrays and use that for total difference
             //then compare total difference to bestMatch.difference
                             // console.log("Friend Score: " + friendData[i]);
-                        totalDifference += Math.abs(parseInt(friendData[i].scores[j])-userResult[j]);
+                        totalDifference += Math.abs(parseInt(friendData[i].scores[j]-userResult[j]));
                             console.log("Friend Score: " + friendData[i].scores[j]);
                             console.log("User Result Score: " + userResult[j]);
                             console.log("Total Difference Is: " + totalDifference);
@@ -54,8 +54,9 @@ module.exports = function (app) {
                     }
                 
                 }
-                res.json(bestMatch);
                 friendData.push(userInput);
+                res.json(bestMatch);
+                
 
         });
     };
