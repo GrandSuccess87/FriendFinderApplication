@@ -52,6 +52,7 @@ module.exports = function (app) {
                             }
 
                     }
+                    totalDifference = 0;
                 
                 }
                 friendData.push(userInput);
