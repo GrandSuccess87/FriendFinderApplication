@@ -1,11 +1,3 @@
-/* body { */
-    /* padding: 50px;  */
-    /* background-color: yellow; */
-    /* background-color:#bec1c6; */
-    /* background: url("../images/friends.jpg") no-repeat center center fixed; */
-    
-/* } */
-
 html, body {
     height: 100%;
     margin: 0;
@@ -14,9 +6,9 @@ html, body {
 
 html {
     background-color: black;
-    padding-bottom: 34%; 
+    padding-bottom: 34%;
     opacity: 0.8;
-    
+
 }
 
 .background {
@@ -25,7 +17,7 @@ background: url("../images/friends.jpg");
 /* no-repeat center center fixed */
 
 /* Full height */
-height: 100%; 
+height: 100%;
 
 /* Center and scale the image nicely */
 background-position: center;
@@ -35,7 +27,7 @@ background-size: cover;
 
 
 .jumbotron{
-    background-color: blanchedalmond;
+    background-color: oldlace;
     opacity: 1.0;
 }
 .container .jumbotron, .container-fluid .jumbotron {
